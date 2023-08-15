@@ -36,6 +36,11 @@ body {
   position: relative;
   text-align: center;
 }
+.img-heart {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
 .img-heroe {
   position: absolute;
   top: 50%;
