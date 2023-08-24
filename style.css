@@ -27,6 +27,7 @@ body {
   padding: 3rem 1rem;
   max-width: 1200px;
   width: 100%;
+  gap: 1rem;
   margin: 0 auto;
 }
 .card {
@@ -35,6 +36,11 @@ body {
   width: 300px;
   position: relative;
   text-align: center;
+  min-height: 552px;
+}
+
+.fondo-heroe {
+  width: 100%;
 }
 .img-heart {
   position: absolute;
@@ -43,14 +49,15 @@ body {
 }
 .img-heroe {
   position: absolute;
-  top: 50%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, -80%);
   border-radius: 50%;
+  width: 40%;
 }
 .title-heroe {
-  padding-top: 70px;
-  padding-bottom: 10px;
+  padding-top: 55px;
+  padding-bottom: 15px;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
