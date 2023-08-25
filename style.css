@@ -17,7 +17,9 @@ body {
 .header-dos {
   background-color: #00669f;
   font-family: "Roboto", sans-serif;
-  padding-left: 1rem;
+  font-weight: 400;
+  padding: 1rem;
+  color: white;
 }
 .main {
   display: flex;
@@ -28,6 +30,7 @@ body {
   width: 100%;
   gap: 2rem;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 .card {
   border-radius: 20px;
@@ -75,6 +78,7 @@ body {
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
+  width: 50%;
 }
 .footer {
   margin-top: auto;
@@ -82,4 +86,23 @@ body {
   color: white;
   padding: 1rem;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer .logo-git {
+  width: 150px;
+  margin-left: 20%;
+}
+
+.logo-git img {
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1270px) {
+  main {
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
 }
