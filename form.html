@@ -17,28 +17,30 @@
       <div class="header-uno">Descuento 20%</div>
       <div class="container-tienda">
         <img src="./assets/tienda.png" class="img-tienda" alt="logo-tienda" />
-        <h1 class="name-tienda">Shop Heroes</h1>
+        <h1 class="header-dos">Shop Heroes</h1>
       </div>
-      <div>
-        <ul>
-          <li>Contacto</li>
-          <li>Registrarme</li>
-          <li>Ingresar</li>
+      <div class="nav-tienda">
+        <ul class="nav-ul">
+          <li><a href="/">Contacto</a></li>
+          <li><a href="/">Registrarme</a></li>
+          <li><a href="/">Ingresar</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <section>
-        <h2>Añadí tu super!</h2>
-        <p>Agregá tu personaje favorito completando las opciones.</p>
+      <section class="container-form">
+        <h2 class="title-form">Añadí tu super!</h2>
+        <p class="paragraph-form">
+          Agregá tu personaje favorito completando las opciones.
+        </p>
 
-        <form action="">
-          <div>
-            <label for="name">
+        <form action="" class="form">
+          <div class="name-specie">
+            <label for="name" class="label">
               Nombre
               <input type="text" id="name" />
             </label>
-            <label for="specie"
+            <label for="specie" class="label"
               >Especie
               <select name="especie" id="specie">
                 <option value="unknown" selected>unknown</option>
@@ -46,11 +48,11 @@
             </label>
           </div>
           <div>
-            <label for="date"
+            <label for="date" class="label"
               >Fecha
               <input type="date" id="date" name="Fecha" />
             </label>
-            <label for="file"
+            <label for="file" class="label"
               >Agregar Foto
               <input type="file" id="file" name="archivo" />
             </label>
@@ -65,19 +67,19 @@
             <div>
               <h3>Poderes</h3>
               <div>
-                <label for="power">
+                <label for="power" class="label">
                   <input type="checkbox" name="poderes" id="power" />
                   volar
                 </label>
-                <label for="power-uno">
+                <label for="power-uno" class="label">
                   <input type="checkbox" name="poderes-uno" id="power-uno" />
                   Superinteligente
                 </label>
-                <label for="power-dos">
+                <label for="power-dos" class="label">
                   <input type="checkbox" name="poderes-dos" id="power-dos" />
                   Vista de rayo lasér
                 </label>
-                <label for="power-tres">
+                <label for="power-tres" class="label">
                   <input type="checkbox" name="poderes-dos" id="power-tres" />
                   Billetera gorda
                 </label>
@@ -85,10 +87,10 @@
               <br />
               <h3>Tipo de personaje</h3>
               <div>
-                <label for="Heroe">
+                <label for="Heroe" class="label">
                   <input type="radio" id="Heroe" name="heroe" /> Héroe/Heroina
                 </label>
-                <label for="villano">
+                <label for="villano" class="label">
                   <input type="radio" id="villano" name="villano" />
                   Villano/Villana
                 </label>
