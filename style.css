@@ -141,17 +141,19 @@ body {
 }
 
 .container-form {
-  margin: 0 auto;
-  width: 55%;
+  margin: 20px auto;
+  width: 65%;
   border-radius: 20px;
   background-color: #00669f;
+  padding: 20px;
 }
 
 .title-form {
   text-align: center;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   color: #f3f3f3;
   font-family: "Roboto", sans-serif;
+  font-size: 28px;
 }
 
 .paragraph-form {
@@ -159,6 +161,7 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 20px;
 }
 
 .form {
@@ -166,12 +169,114 @@ body {
   margin: 0 auto;
 }
 
-.name-specie {
+.name-specie,
+.date-file,
+.textarea-div {
   display: flex;
+  padding: 10px;
 }
 
 .label {
   color: white;
+}
+
+.label-name {
+  padding-right: 10px;
+}
+
+.label-name,
+.label-specie,
+.label-date,
+.label-file {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.label-file {
+  justify-content: center;
+  margin-left: 10px;
+}
+.input-name,
+.input-specie,
+.input-date {
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: "Roboto", sans-serif;
+}
+
+.input-name:focus {
+  outline: none;
+}
+
+.input-specie:focus {
+  outline: none;
+}
+
+.input-date:focus {
+  outline: none;
+}
+
+.input-file {
+  height: 35px;
+}
+
+.textarea-description {
+  resize: none;
+  width: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  font-size: "Roboto", sans-serif;
+}
+
+.textarea-description:focus {
+  outline: none;
+}
+.container-check-radio {
+  width: 50%;
+}
+.title-poderes,
+.title-personajes {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  gap: 10px;
+}
+
+.container-radio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hr-style {
+  margin: 1rem 0;
+}
+
+.btn-form {
+  width: 60%;
+  background-color: #1cd1b0;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  font-weight: 700;
+  margin-top: 10px;
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .main {

@@ -36,37 +36,38 @@
 
         <form action="" class="form">
           <div class="name-specie">
-            <label for="name" class="label">
+            <label for="name" class="label label-name">
               Nombre
-              <input type="text" id="name" />
+              <input type="text" id="name" class="input-name" />
             </label>
-            <label for="specie" class="label"
+            <label for="specie" class="label label-specie"
               >Especie
-              <select name="especie" id="specie">
+              <select name="especie" id="specie" class="input-specie">
                 <option value="unknown" selected>unknown</option>
               </select>
             </label>
           </div>
-          <div>
-            <label for="date" class="label"
+          <div class="date-file">
+            <label for="date" class="label label-date"
               >Fecha
-              <input type="date" id="date" name="Fecha" />
+              <input type="date" id="date" name="Fecha" class="input-date" />
             </label>
-            <label for="file" class="label"
+            <label for="file" class="label label-file"
               >Agregar Foto
-              <input type="file" id="file" name="archivo" />
+              <input type="file" id="file" name="archivo" class="input-file" />
             </label>
           </div>
-          <div>
+          <div class="textarea-div">
             <textarea
               name="description"
               id="description"
               cols="30"
               rows="10"
+              class="textarea-description"
             ></textarea>
-            <div>
-              <h3>Poderes</h3>
-              <div>
+            <div class="container-check-radio">
+              <h3 class="title-poderes">Poderes</h3>
+              <div class="checkbox-container">
                 <label for="power" class="label">
                   <input type="checkbox" name="poderes" id="power" />
                   volar
@@ -84,9 +85,9 @@
                   Billetera gorda
                 </label>
               </div>
-              <br />
-              <h3>Tipo de personaje</h3>
-              <div>
+              <hr class="hr-style" />
+              <h3 class="title-personajes">Tipo de personaje</h3>
+              <div class="container-radio">
                 <label for="Heroe" class="label">
                   <input type="radio" id="Heroe" name="heroe" /> Héroe/Heroina
                 </label>
@@ -98,6 +99,7 @@
               <div></div>
             </div>
           </div>
+          <button class="btn-form">Añadir</button>
         </form>
       </section>
     </main>
