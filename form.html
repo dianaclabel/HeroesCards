@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-uno">Descuento 20%</div>
+      <div class="container-tienda">
+        <img src="./assets/tienda.png" class="img-tienda" alt="logo-tienda" />
+        <h1 class="name-tienda">Shop Heroes</h1>
+      </div>
+      <div>
+        <ul>
+          <li>Contacto</li>
+          <li>Registrarme</li>
+          <li>Ingresar</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Añadí tu super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+
+        <form action="">
+          <div>
+            <label for="name">
+              Nombre
+              <input type="text" id="name" />
+            </label>
+            <label for="specie"
+              >Especie
+              <select name="especie" id="specie">
+                <option value="unknown" selected>unknown</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label for="date"
+              >Fecha
+              <input type="date" id="date" name="Fecha" />
+            </label>
+            <label for="file"
+              >Agregar Foto
+              <input type="file" id="file" name="archivo" />
+            </label>
+          </div>
+          <div>
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div>
+              <h3>Poderes</h3>
+              <div>
+                <label for="power">
+                  <input type="checkbox" name="poderes" id="power" />
+                  volar
+                </label>
+                <label for="power-uno">
+                  <input type="checkbox" name="poderes-uno" id="power-uno" />
+                  Superinteligente
+                </label>
+                <label for="power-dos">
+                  <input type="checkbox" name="poderes-dos" id="power-dos" />
+                  Vista de rayo lasér
+                </label>
+                <label for="power-tres">
+                  <input type="checkbox" name="poderes-dos" id="power-tres" />
+                  Billetera gorda
+                </label>
+              </div>
+              <br />
+              <h3>Tipo de personaje</h3>
+              <div>
+                <label for="Heroe">
+                  <input type="radio" id="Heroe" name="heroe" /> Héroe/Heroina
+                </label>
+                <label for="villano">
+                  <input type="radio" id="villano" name="villano" />
+                  Villano/Villana
+                </label>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Todos los derechos reservados &copy; Diana Clabel</p>
+      <div class="logo-git">
+        <img src="./assets/git-logo.png" alt="logo-git" />
+      </div>
+    </footer>
+  </body>
+</html>
