@@ -1,4 +1,4 @@
-# Desafío Pizzas&Front
+# Desafío card Super Heroes
 
 ## 1. Descripción
 
@@ -14,8 +14,9 @@ Diseño Figma: Utilizaremos el diseño proporcionado en Figma como una guía só
 
 ## 3.Prototipo de alta fidelidad
 
-![](./assets/figma-1.png)
-![](./assets/figma-2.png)
+Se ha proporcionado un prototipo de alta fidelidad que incluye capturas de pantalla de cómo se espera que se vea la página web tanto en escritorio como en dispositivos móviles y tablets.
+<img src="./assets/figma-1.png" alt="Vista en Tablet" width="80%">
+<img src="./assets/figma-2.png" alt="Vista en Tablet" width="50%" >
 
 Para lograrlo, hemos seguido estos pasos clave:
 
@@ -28,30 +29,11 @@ Para lograrlo, hemos seguido estos pasos clave:
 
 ### Desktop
 
-<div style="display:flex; gap:10px ; align-items: center; justify-content:center">
-  <div style="width:400px">
-
-![](./assets/desktop.png)
-![](<./assets/desktop%20(2).png>)
-
-  </div>
-  <div style="width:300px">
-
-![](<./assets/pizzaFront_(iPad%20Mini).png>)
-
-  </div>
-</div>
+<img src="./assets/desktop.png" alt="Vista en Tablet" width="80%">
+<img src="./assets/desktop (2).png" alt="Vista en Tablet" width="80%">
 
 ### Mobile y Tablet
 
-<div style="margin: auto, 0 ; width: 200px">
+<img src="./assets/tablet.png" alt="Vista en Tablet" width="200px">
 
-![](./assets/tablet.png)
-
-</div>
-
- <div style="margin: auto, 0 ; width: 100px">
-
-![](./assets/mobile.png)
-
-</div>
+<img src="./assets/mobile.png" alt="Vista en Tablet" width="100px">
